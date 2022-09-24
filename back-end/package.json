@@ -1,0 +1,26 @@
+{
+  "name": "fashion-back-end",
+  "version": "1.0.0",
+  "description": "which is a node JS backend for fashion items",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "saimadhu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.1.0",
+    "express-validator": "^6.13.0",
+    "formidable": "^2.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.15",
+    "uuid": "^8.3.2"
+  }
+}
